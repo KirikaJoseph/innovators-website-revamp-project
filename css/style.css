@@ -116,13 +116,13 @@ img {
     max-width: 1170px;
 }
 
-<<<<<<< HEAD=======.containermain .container {
+.containermain .container {
     background-color: white;
     border-radius: 30px;
     padding-left: 0px;
 }
 
->>>>>>>c1e559303b04354e398856a3bb1d3a80188ea75c .move-right {
+.move-right {
     float: right !important;
 }
 
@@ -280,7 +280,7 @@ h6 {
     display: flex !important;
 }
 
-<<<<<<< HEAD=======.index-2 .row-reverse {
+.index-2 .row-reverse {
     background-color: white;
     margin: 5px 20px 5px 20px;
     border-radius: 30px;
@@ -777,8 +777,7 @@ header {
 header .navbar-brand {
     padding: 5px 0;
     margin: 0px 15px;
-    <<<<<<< HEAD=======color: #000;
-    >>>>>>>c1e559303b04354e398856a3bb1d3a80188ea75c
+    color: #000;
 }
 
 header .nav-item.active a {
@@ -852,6 +851,10 @@ header.sticky {
     margin: 0 10px;
 }
 
+.display {
+    color: white;
+}
+
 
 /*---- About Us ----*/
 
@@ -877,7 +880,7 @@ section#about-us {}
     font-weight: 500;
     line-height: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color: #262626;
 }
 
@@ -899,6 +902,71 @@ section#about-us {}
 
 .list {
     justify-content: center;
+}
+
+#partners-sponsors .partner-content:hover {
+    transform: scale(1.05);
+    border: 2px solid silver;
+    box-shadow: 0 0 10px rgba(192, 192, 192, 0.5);
+    border-radius: 10px;
+}
+
+.partners-section {
+    background-color: #fff;
+    padding: 40px 0;
+    margin-top: -90px;
+}
+
+.partners-section .section_heading {
+    text-align: center;
+}
+
+.partners-section .section_heading h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.partners-section .section_heading .separator {
+    margin-bottom: 20px;
+}
+
+.partners-section .section_heading .separator ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.partners-section .section_heading .separator ul li {
+    width: 10px;
+    height: 10px;
+    background: #000;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.partners-section .partner-content {
+    padding: 20px;
+    transition: transform 0.3s, border 0.3s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.partners-section .partner-content:hover {
+    transform: scale(1.05);
+    border: 2px solid silver;
+    box-shadow: 0 0 10px rgba(192, 192, 192, 0.5);
+    border-radius: 10px;
+}
+
+.partners-section .partner-content img {
+    width: 150px;
+    margin-top: 5px;
+}
+
+.partners-section .partner-content p {
+    color: #333;
+    font-weight: bold;
 }
 
 
@@ -1828,133 +1896,6 @@ section#about-us.index-2 .qualities .column .description h5 {
 
 section#about-us.index-2 .qualities .column .description p {
     padding-bottom: 0
-}
-
-
-/*---- Services ----*/
-
-section#services.index-2 {
-    padding: 100px 0;
-}
-
-section#services.index-2 .owl-nav button {
-    display: none;
-}
-
-section#services.index-2 .service-slider .owl-stage-outer {
-    position: relative;
-    padding-bottom: 30px;
-    padding-top: 30px;
-}
-
-section#services.index-2 .h-border {
-    width: 100%;
-    height: 1px;
-    background: #e0e0e0;
-    position: absolute;
-    top: 140px;
-}
-
-section#services.index-2 .h-border::before {
-    content: ' ';
-    width: 8px;
-    height: 8px;
-    background: #707070;
-    display: block;
-    left: 0;
-    top: -4px;
-    position: absolute;
-}
-
-section#services.index-2 .h-border::after {
-    content: ' ';
-    width: 8px;
-    height: 8px;
-    background: #707070;
-    display: block;
-    right: 0;
-    top: -4px;
-    position: absolute;
-}
-
-section#services.index-2 .item {
-    text-align: center;
-}
-
-section#services.index-2 .service_icon {
-    transition: all 0.5s ease;
-    padding: 10px;
-    background: #fff;
-    display: block;
-    float: none;
-    margin: 0px auto;
-    width: 70px;
-    height: 70px;
-    line-height: 100%;
-    border-radius: 100%;
-    border: solid 1px #e0e0e0;
-    z-index: 9;
-    position: relative;
-}
-
-section#services.index-2 .service_icon i::before {
-    font-size: 35px;
-    color: #797979;
-    line-height: 45px;
-}
-
-section#services.index-2 .connector {
-    width: 15px;
-    padding: 0px;
-    margin: 0px auto;
-    height: 80px;
-    padding: 35px 0;
-    position: relative;
-}
-
-section#services.index-2 .connector span {
-    width: 11px;
-    height: 10px;
-    background: #e0e0e0;
-    display: block;
-}
-
-section#services.index-2 .connector span::before {
-    content: ' ';
-    width: 1px;
-    height: 35px;
-    background: #e0e0e0;
-    position: absolute;
-    top: 0px;
-}
-
-section#services.index-2 .connector span::after {
-    content: ' ';
-    width: 1px;
-    height: 35px;
-    background: #e0e0e0;
-    position: absolute;
-    bottom: 0px;
-}
-
-section#services.index-2 .service-card {
-    border-radius: 20px;
-    background: #fff;
-    border: solid 1px #e0e0e0;
-    transition: all 0.5s ease;
-}
-
-section#services .service-card .service_detail p {
-    padding-bottom: 0;
-}
-
-section#services .item:hover .connector span {
-    background: #707070;
-}
-
-section#services .item:hover .service-card h5 a,
-section#services .item:hover .service-card p {
-    color: #fff;
 }
 
 
