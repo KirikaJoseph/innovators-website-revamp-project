@@ -902,6 +902,12 @@ section#about-us {}
 
 .list {
     justify-content: center;
+    align-items: center;
+    /*text-align: center;*/
+}
+
+.list ul{
+    padding-left: 44%;
 }
 
 #partners-sponsors .partner-content:hover {
