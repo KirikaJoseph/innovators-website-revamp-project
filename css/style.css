@@ -3725,7 +3725,21 @@ section#inner-banner .inner-heading {
 }
 
 section#inner-banner .inner-heading h2 {
+    margin-bottom: 10px;
     color: #fff;
+    font-weight: 100px;
+}
+
+section#inner-banner .inner-heading h3 {
+    margin-bottom: 10px;
+    color: #fff;
+    font-style: italic;
+}
+
+
+section#inner-banner .inner-heading h4{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 section#inner-banner .inner-heading .breadcrumb {
