@@ -97,9 +97,10 @@ body {
     min-height: 100%;
     padding-bottom: 600px;
     overflow: hidden;
-    <<<<<<< HEAD=======background-color: rgb(236, 235, 235);
-    >>>>>>>c1e559303b04354e398856a3bb1d3a80188ea75c
+    background-color: rgb(236, 235, 235);
+   
 }
+.wraper
 
 .wraper-v2-inner {
     min-height: 100%;
@@ -114,12 +115,18 @@ img {
 
 .container {
     max-width: 1170px;
+    
 }
 
 .containermain .container {
     background-color: white;
     border-radius: 30px;
     padding-left: 0px;
+}
+
+
+.containerz{
+    color: blue;
 }
 
 .move-right {
@@ -221,7 +228,7 @@ a.view_more {
 }
 
 .separator-pipesign.white {
-    background: rgba(255, 255, 255, 0.992);
+    background: gold;
 }
 
 h1,
@@ -469,9 +476,9 @@ section {
     font-size: 18px;
     line-height: 28px;
     padding: 0px;
-    <<<<<<< HEAD color: #797979;
-    =======color: #ffffff;
-    >>>>>>>c1e559303b04354e398856a3bb1d3a80188ea75c
+    color: #797979;
+    color: #ffffff;
+    
 }
 
 .separator {
@@ -556,9 +563,9 @@ section {
 
 .img-area img {
     width: 100%;
-    <<<<<<< HEAD height: auto;
-    =======height: 500px;
-    >>>>>>>c1e559303b04354e398856a3bb1d3a80188ea75c
+    height: auto;
+    height: 500px;
+   
 }
 
 .content-area {
@@ -917,7 +924,7 @@ section#about-us {}
 }
 
 .list ul{
-    padding-left: 44%;
+    padding-left: 12%;
 }
 
 #partners-sponsors .partner-content:hover {
@@ -1545,9 +1552,9 @@ section#blog_post .blog_card .post-detail h5 a {
 
 /*---- Testimonials ----*/
 
-section#testimonials {}
+/* section#testimonials {} */
 
-section#testimonials .content_sec {}
+/* section#testimonials .content_sec {} */
 
 section#testimonials .testimonials-slider .item {
     float: left;
@@ -1796,7 +1803,7 @@ footer .copyright a {
 .header-top.contact_info .mail-call .mail-to,
 .header-top.contact_info .mail-call .call-on {
     display: inline-block;
-    color: #ffffff;
+    color: #adbcd7;
 }
 
 .header-top.contact_info i {
@@ -1810,7 +1817,7 @@ footer .copyright a {
 
 .header-top.contact_info .follow_us_on li a i::before {
     font-size: 14px;
-    color: #fdbb07;
+    color: #fffefa;
 }
 
 .header-top.contact_info .mail-call {
@@ -2755,10 +2762,7 @@ footer.index-2 .contact-form form button[type="submit"] {
     border-radius: 20px;
 }
 
-footer .bottom {
-    padding: 0;
-    margin-top: 45px;
-}
+
 
 footer .bottom .navigation {
     text-align: center;
@@ -2775,16 +2779,18 @@ footer .bottom .navigation li {
 
 footer .bottom .navigation li a {
     font-size: 14px;
-    color: #fff;
+    color: #ffffff;
     padding: 0;
 }
 
 footer .bottom hr {
-    margin: 0;
+    padding-top: 0px;
+
 }
 
+
 footer .bottom .separator {
-    width: 1px;
+    width: 6px;
     height: 10px;
     display: inline-block;
     margin: 0px 10px;
@@ -2794,16 +2800,22 @@ footer .bottom .separator {
 footer .bottom .copyright {
     text-align: left;
     color: #fff;
-    margin: 25px 0;
+    margin-top: -25px;
     display: inline-block;
     padding: 0;
 }
+footer.bottom.container{
+    height: 20px;
+    width:100%;
+}
 
 footer .bottom .copyright a {
-    display: inline;
+    display: ;
     float: none;
     color: #fff;
+
 }
+
 
 
 /****---- Homepage 2 End ----****/
